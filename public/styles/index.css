@@ -1,0 +1,86 @@
+#login, #loggedin {
+  display:none;
+  width:50%;
+}
+
+.login-button {
+  width:50%;
+}
+
+button {
+  background: none;
+  border:none;
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width:100%;
+  margin: 20px 0;
+}
+
+.logo-container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in-container {
+  justify-content: center;
+  display:flex;
+  padding:40px;
+}
+
+.hidden {
+  display:none;
+}
+
+.playlist-container {
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+  padding: 0 20px;
+}
+
+.playlist {
+  width:40%;
+  margin: 15px;
+  background-color:#222;
+  color:white;
+  padding:20px;
+  animation:fadeInUp 1.2s ease-in-out forwards;
+}
+
+.margined-item {
+  margin:0 15px;
+}
+
+.get-songs-button {
+  background-color:#111;
+  padding:20px;
+  color:green;
+}
+
+.loading-container {
+  display: flex;
+  width:100%;
+  justify-content: center;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
